@@ -46,7 +46,7 @@ Issues = "https://github.com/ilyazub/serpapi-mcp-server/issues"
 Documentation = "https://github.com/ilyazub/serpapi-mcp-server#readme"
 
 [project.scripts]
-serpapi-mcp = "src.server:main"
+serpapi_mcp = "serpapi_mcp:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]

@@ -204,6 +204,9 @@ async def search(params: Dict[str, Any] = {}, raw: bool = False) -> str:
     except Exception as e:
         return f"Error: {str(e)}"
 
+def main():
+    mcp.run()
 
 if __name__ == "__main__":
-    mcp.run()
+    main()
+
